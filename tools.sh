@@ -33,6 +33,11 @@ echo "Installing Terminator ..."
 echo y | pacman -S terminator
 echo "Done."
 
+# Pip
+echo "Installing python-pip ..."
+echo y | pacman -S python-pip
+echo "Done."
+
 # Sometimes I forget my passwords
 echo "Installing KeePass ..."
 echo y | pacman -S keepass
@@ -68,6 +73,11 @@ echo "Installing IRC Clients ... (HexChat, WeeChat)"
 echo y | pacman -S hexchat
 echo y | pacman -S weechat
 
+# Unzip
+echo "Installing Unzip ..."
+echo y | pacman -S unzip
+echo "Done."
+
 # :)
 echo "Choo Choo ..."
 echo y | pacman -S sl
@@ -80,4 +90,38 @@ mkdir Software && cd Software/
 echo "Installing yt-dl ..."
 curl -L https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
 echo "Done."
+
+echo "Installing Facebook Messenger client, Instagram client, Twitter client ... "
+# This one is Twitter Client 
+
+# mkdir anatine && cd anatine/
+# wget https://github.com/sindresorhus/anatine/releases/download/0.5.1/Anatine-linux-0.5.1.zip
+# unzip Anatine*
+# echo "Done with Anatine ..."
+
+# cd ..
+
+# I am kinda using only this one so, I'll comment the others ... 
+mkdir caprine && cd caprine/
+wget https://github.com/sindresorhus/caprine/releases/download/1.5.0/Caprine-linux-1.5.0.zip
+unzip Caprine*
+echo "Done with Caprine ..."
+
+cd ..
+
+# This on is Instagram client
+# mkdir ramme && cd ramme/
+# wget https://github.com/terkelg/ramme/releases/download/2.1.0/Ramme-linux-2.1.0.zip
+# unzip Ramme*
+# echo "Done with Ramme ..."
+
+# This one is awesome!
+git clone https://github.com/giltene/wrk2.git
+cd wrk2
+make
+cp wrk /usr/local/bin
+
+cd ..
+
+
 
