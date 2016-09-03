@@ -1,85 +1,85 @@
 # Wget / Curl / OpenSSH / OpenVPN
 echo "Installing wget, cURL, OpenVPN & OpenSSH ..."
-echo y | pacman -S wget
-echo y | pacman -S curl
-echo y | pacman -S openvpn
-echo y | pacman -S openssh
+pacman --noconfirm -S  wget
+pacman --noconfirm -S  curl
+pacman --noconfirm -S  openvpn
+pacman --noconfirm -S  openssh
 echo "Done."
 
 # Torrent client
 echo "Installing torrent client ..."
-echo y | pacman -S qbittorrent
+pacman --noconfirm -S  qbittorrent
 echo "Done."
 
 # VLC
 echo "Installing VLC ..."
-echo y | pacman -S vlc
+pacman --noconfirm -S  vlc
 echo "Done."
 
 # Office
 echo "Installing LibreOffice & LeafPad ..."
-echo y | pacman -S libreoffice
-echo y | pacman -S leafpad
+pacman --noconfirm -S  libreoffice
+pacman --noconfirm -S  leafpad
 echo "Done"
 
 # Browsers
 echo "Installing Firefox & Chromium ..."
-echo y | pacman -S firefox
-echo y | pacman -S chromium
+pacman --noconfirm -S  firefox
+pacman --noconfirm -S  chromium
 
 # Terminal
 echo "Installing Terminator ..."
-echo y | pacman -S terminator
+pacman --noconfirm -S  terminator
 echo "Done."
 
 # Pip
 echo "Installing python-pip ..."
-echo y | pacman -S python-pip
+pacman --noconfirm -S  python-pip
 echo "Done."
 
 # Sometimes I forget my passwords
 echo "Installing KeePass ..."
-echo y | pacman -S keepass
+pacman --noconfirm -S  keepass
 echo "Done."
 
 # GUI Image Viewer
 echo "Installing GUI Image Viewer"
-echo y | pacman -S mirage
+pacman --noconfirm -S  mirage
 echo "Done."
 
 # Images editing
 echo "Installing Krita ..."
-echo y | pacman -S krita
+pacman --noconfirm -S  krita
 echo "Done."
 
 # Music client
 echo "Installing Music Client ... "
-echo y | pacman -S clementine
+pacman --noconfirm -S  clementine
 echo "Done."
 
 # PDF Viewer
 echo "Installing PDF Viewer ..."
-echo y | pacman -S okular
+pacman --noconfirm -S  okular
 echo "Done."
 
 # Ebook management application
 echo "Installing Ebook Management Application ..."
-echo y | pacman -S calibre
+pacman --noconfirm -S  calibre
 echo "Done."
 
 # IRC Client
 echo "Installing IRC Clients ... (HexChat, WeeChat)"
-echo y | pacman -S hexchat
-echo y | pacman -S weechat
+pacman --noconfirm -S  hexchat
+pacman --noconfirm -S  weechat
 
 # Unzip
 echo "Installing Unzip ..."
-echo y | pacman -S unzip
+pacman --noconfirm -S  unzip
 echo "Done."
 
 # :)
 echo "Choo Choo ..."
-echo y | pacman -S sl
+pacman --noconfirm -S  sl
 echo "..."
 
 # That's what I do. I drink, and I know things.

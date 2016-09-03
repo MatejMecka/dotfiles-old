@@ -1,8 +1,8 @@
-echo y | pacman -Syu
+pacman -Syu
 
-echo y | pacman -S pulseaudio-alsa
+pacman --noconfirm -S  pulseaudio-alsa
 
-echo y | pacman -S git
+pacman --noconfirm -S  git
 
 pacman -S xorg xorg-xinit xorg-server-utils xorg-xclock xorg-twm xterm
 
