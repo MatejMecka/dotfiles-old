@@ -1,10 +1,9 @@
 # Wget / Curl / OpenSSH / OpenVPN
-echo "Installing wget, cURL, git, OpenVPN & OpenSSH ..."
+echo "Installing wget, cURL, OpenVPN & OpenSSH ..."
 echo y | pacman -S wget
 echo y | pacman -S curl
 echo y | pacman -S openvpn
 echo y | pacman -S openssh
-echo y | pacman -S git
 echo "Done."
 
 # Torrent client
