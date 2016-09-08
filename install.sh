@@ -68,5 +68,14 @@ if ask "Install symlink for .Xresources?" Y; then
   ln -sf ${dir}/.Xresources ${HOME}/.Xresources
 fi
 
+if ask "Install symlink for .Xresources?" Y; then
+  ln -sf ${dir}/.Xresources ${HOME}/.Xresources
+fi
+
+if ask "Install symlink for .gitignore_global?" Y; then
+  ln -sf ${dir}/.Xresources ${HOME}/.Xresources
+fi
+
+
 
 
