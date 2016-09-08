@@ -34,6 +34,10 @@ if ask "Install symlink for i3?" Y; then
   ln -sfn ${dir}/.config/i3 ${HOME}/.config/i3
 fi
 
+if ask "Install symlink for wallpapers?" Y; then
+  ln -sfn ${dir}/.config/wallpapers ${HOME}/.config/wallpapers
+fi
+
 if ask "Install symlink for .scripts?" Y; then
   ln -sfn ${dir}/.scripts ${HOME}/.scripts
 fi
