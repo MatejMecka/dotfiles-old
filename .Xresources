@@ -1,0 +1,48 @@
+!Enables copy/paste with Ctrl-Shift-C/V
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.perl-ext-common: default,clipboard
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+
+! make otf / ttf fonts look pretty.  does not matter if you are using a bitmap font.
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintslight
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+! clickable links, clipboard support, mouse wheel support, and on the fly font resizing
+! you will need to install the relevent perl extensions for these to work
+URxvt.url-launcher: /usr/bin/firefox
+URxvt.matcher.button: 1
+URxvt.matcher.rend.0: Uline Bold fg5
+
+URxvt.scrollBar: false
+
+
+*background: #1D2426
+*foreground: #8FA388
+
+! Alternate foreground
+!*foreground: #AB9C71
+
+*cursorColor: #BE5E1E
+
+*color0:  #39474A
+*color1:  #986345
+*color2:  #788249
+*color3:  #9B6A46
+*color4:  #3E5951
+*color5:  #B9924A
+*color6:  #5d796a
+*color7:  #977D5E
+*color8:  #4C5F63
+*color9:  #B07350
+*color10: #869151
+*color11: #AF6B42
+*color12: #567A6E
+*color13: #D69D55
+*color14: #668574
+*color15: #AB9C71
