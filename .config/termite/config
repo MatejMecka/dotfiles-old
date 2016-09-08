@@ -1,0 +1,54 @@
+# Termite configs
+[options]
+dynamic_title = true
+ 
+# $BROWSER is used by default if set, with xdg-open as a fallback
+browser = firefox
+ 
+# Font size
+#font = DejaVu Sans 11
+#font = System San Francisco Display 9
+#font = Terminus (TTF) 10
+#font = Droid Sans Mono 8
+font = Mono 9
+
+[colors]
+
+# special
+foreground      = #c4c6d2
+foreground_bold = #c4c6d2
+cursor          = #c4c6d2
+background      = #0f1019
+
+# black
+color0  = #1a1b26
+color8  = #468f65
+
+# red
+color1  = #222331
+color9  = #6e81ec
+
+# green
+color2  = #323446
+color10 = #b3ae61
+
+# yellow
+color3  = #484b63
+color11 = #36915f
+
+# blue
+color4  = #646887
+color12 = #8f8b54
+
+# magenta
+color5  = #888ba4
+color13 = #3a9161
+
+# cyan
+color6  = #b2b4c4
+color14 = #63a77d
+
+# white
+color7  = #e1e2e8
+color15 = #939ce2
+

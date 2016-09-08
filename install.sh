@@ -46,6 +46,11 @@ if ask "Install symlink for .ssh?" Y; then
   ln -sfn ${dir}/.ssh ${HOME}/.ssh
 fi
 
+if ask "Install symlink for .config/termite?" Y; then
+  ln -sfn ${dir}/.config/termite ${HOME}/.config/termite
+fi
+
+
 # Files start here
 
 if ask "Install symlink for .i3blocks.conf?" Y; then
@@ -68,9 +73,6 @@ if ask "Install symlink for .Xresources?" Y; then
   ln -sf ${dir}/.Xresources ${HOME}/.Xresources
 fi
 
-if ask "Install symlink for .Xresources?" Y; then
-  ln -sf ${dir}/.Xresources ${HOME}/.Xresources
-fi
 
 if ask "Install symlink for .gitignore_global?" Y; then
   ln -sf ${dir}/.Xresources ${HOME}/.Xresources
