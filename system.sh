@@ -2,7 +2,7 @@ pacman -Syu
 
 pacman --noconfirm -S  pulseaudio-alsa
 
-pacman --noconfirm -S  git
+# pacman --noconfirm -S  git
 
 pacman -S xorg xorg-xinit xorg-server-utils xorg-xclock xorg-twm xterm
 

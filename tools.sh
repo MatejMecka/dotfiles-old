@@ -6,6 +6,36 @@ pacman --noconfirm -S  openvpn
 pacman --noconfirm -S  openssh
 echo "Done."
 
+# dosftools
+echo "Installing dosftools ..."
+pacman --noconfirm -S dosftools 
+echo "Done."
+
+# Sunflower - file manager
+echo "Installing Sunflower ..."
+pacman --noconfirm -S sunflower
+echo "Done."
+
+# Rofi - (for i3)
+echo "Installing Rofi"
+pacman --noconfirm -S rofi
+echo "Done."
+
+# Feh
+echo "Installing Feh ..."
+pacman --noconfirm -S feh
+echo "Done."
+
+# Arandr
+echo "Installing aRandr ..."
+pacman --noconfirm -S arandr
+echo "Done."
+
+# urxvt
+echo "Installing urxvt ..."
+pacman --noconfirm -S rxvt-unicode
+echo "Done."
+ 
 # Torrent client
 echo "Installing torrent client ..."
 pacman --noconfirm -S  qbittorrent
