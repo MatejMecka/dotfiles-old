@@ -1,8 +1,8 @@
 set $mod Mod4
 
-#font pango: Ubuntu Mono Regular 10
+font pango: Ubuntu Mono Regular 13
 #font pango: Anonymous Pro Regular 10
-font pango: Dejavu Sans Mono 10
+#font pango: Dejavu Sans Mono 10
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
