@@ -4,7 +4,8 @@ URxvt.iso14755_52: false
 URxvt.perl-ext-common: default,clipboard
 URxvt.keysym.Shift-Control-C: perl:clipboard:copy
 URxvt.keysym.Shift-Control-V: perl:clipboard:paste
-urxvt*font: xft:Ubuntu Mono:pixelsize=13,style=regular
+urxvt*font: xft:Ubuntu Mono:pixelsize=14,style=regular
+!URxvt*font: xft:Inconsolata for Powerline:size=13
 
 ! make otf / ttf fonts look pretty.  does not matter if you are using a bitmap font.
 Xft.autohint: 0
@@ -22,7 +23,7 @@ URxvt.matcher.button: 1
 URxvt.matcher.rend.0: Uline Bold fg5
 
 URxvt.scrollBar: false
-
+URxvt.title: URxvt
 
 URxvt.letterSpace:         -2
 

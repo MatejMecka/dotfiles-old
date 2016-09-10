@@ -69,16 +69,6 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
-# TODO
-
-# #######
-
-# set $workspace1 "editors" variables
-# assign [class="Firefox"] $workspace
-# Font awesome download and install
-
-# #######
-
 set $workspace1 ""
 set $workspace2 ""
 set $workspace3 ""
@@ -136,7 +126,7 @@ assign [class="Skype"] $workspace 5
 assign [class="Clementine"] $workspace6
 
 # VLC assign
-assign [class="VLC"] $workspace7
+assign [class="Vlc"] $workspace7
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -145,6 +135,10 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
+new_window none
+new_float none
+
+for_window [class="urxvt"] floating enable
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
