@@ -2,8 +2,12 @@
 URxvt.iso14755: false
 URxvt.iso14755_52: false
 URxvt.perl-ext-common: default,clipboard
+
+! URxvt*keysym.F11: perl:fullscreen:switch
+
 URxvt.keysym.Shift-Control-C: perl:clipboard:copy
 URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+
 urxvt*font: xft:Ubuntu Mono:pixelsize=14,style=regular
 !URxvt*font: xft:Inconsolata for Powerline:size=13
 

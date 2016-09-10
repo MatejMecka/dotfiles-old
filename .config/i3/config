@@ -166,8 +166,8 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-set $bg-color			#2a2e38
-set $inactive-bg-color		#2a2e38
+set $bg-color			#1d1c22
+set $inactive-bg-color		#1d1c22
 set $text-color 		#ffffff
 set $inactive-text-color	#2a2e38
 set $urgent-bg-color		#E53935
@@ -175,7 +175,7 @@ set $urgent-bg-color		#E53935
 # window colors
 #				border			background		text			indicator
 client.focused			$bg-color		$bg-color		$text-color		#00ff00
-#client.unfocused		$bg-color		$bg-color		$text-color		#00ff00
+client.unfocused		$bg-color		$bg-color		$text-color		#00ff00
 #client.focused_inactive	$bg-color		$bg-color		$text-color		#00ff00
 client.urgent			$urgent-bg-color	$urgent-bg-color	$text-color		#00ff00
 
@@ -192,8 +192,8 @@ bar {
 		background $bg-color
 		separator #FFFFFF
 		#			border			background		text
-		focused_workspace	$bg-color		$bg-color		$text-color
-		#inactive_workspace	$bg-color		$bg-color		$text-color
+		focused_workspace	#069457			#069457			$text-color
+		inactive_workspace	$bg-color		$bg-color		$text-color
 		urgent_workspace	$urgent-bg-color	$urgent-bg-color	$text-color	
 }
 }
