@@ -78,7 +78,7 @@ set $workspace6 ""
 set $workspace7 ""
 set $workspace8 "8"
 set $workspace9 "9"
-set $workspace0 "0"
+set $workspace0 "10"
 
 # switch to workspace
 bindsym $mod+1 workspace $workspace1
@@ -207,8 +207,8 @@ bindsym $mod+l exec --no-startup-id slimlock
 bindsym $mod+d exec rofi -show run -font "Dejavu Sans Mono 10" -lines 5 -separator-style "none" -line-margin 7 -padding 330 -width 100 -opacity 75
 
 # Pulse Audio controls ( install pamixer )
-bindsym XF86AudioRaiseVolume exec pamixer -i 20
-bindsym XF86AudioLowerVolume exec pamixer -d 20
+bindsym XF86AudioRaiseVolume exec pamixer -i 10
+bindsym XF86AudioLowerVolume exec pamixer -d 10
 bindsym XF86AudioMute exec pamixer -t
 
 # Sreen brightness controls
