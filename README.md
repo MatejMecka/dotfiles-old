@@ -5,7 +5,7 @@ Config files for Arch + i3wm
 
 ![first screenshot] (http://i.imgur.com/nUJ4w3U.png)
 ![second screenshot] (http://i.imgur.com/eNwEaPr.png)
-![third screenshot] (http://i.imgur.com/aRjgTWq.jpg)
+![third screenshot] (http://i.imgur.com/Pza7tMx.png)
 
 ### I3blocks bar
 
