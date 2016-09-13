@@ -1,5 +1,5 @@
 # tinnotl dotfiles
-Config files for a Arch + i3wm
+Config files for Arch + i3wm
 
 ### Screenshots
 
@@ -21,8 +21,8 @@ Config files for a Arch + i3wm
     $ pacman -Syu
     $ pacman -S git
     $ git clone https://github.com/tinnotl/dotfiles && cd dotfiles/
-    $ ./install.sh (this will create symlinks for the dotfiles, chmod +x install.sh if needed)
     $ python samwise.py -i system
+    $ ./install.sh (this will create symlinks for the dotfiles, chmod +x install.sh if needed)
     $ python samwise.py -i soft ( Edit the file if you want to add/remove softwares which will be installed with that command)
     ```
 
