@@ -38,7 +38,8 @@ Config files for Arch + i3wm
 
 If not, check out this link here https://revryl.com/2013/07/11/yaourt-installation-arch-linux/
 
-* Reboot
+
+* After finishing everything from above, you can make a reboot.
 
 
 ### You might get problem with SLIM, don't forget to enable and start the process.
