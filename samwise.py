@@ -55,7 +55,7 @@ system = [
     "slim-themes",
     "archlinux-themes-slim",
     "xdg-user-dirs",
-    "i3",
+    "i3-wm",
 ]
 
 # Install every item of the list "soft" 
