@@ -9,8 +9,7 @@ soft = [
     "curl",
     "openvpn",
     "openssh",
-    "dosftools",
-    "sunflower",
+    "dosfstools",
     "rofi",
     "feh",
     "arandr",
@@ -27,7 +26,7 @@ soft = [
     "mirage",
     "clementine",
     "krita",
-    "okular",
+    "zathura",
     "calibre",
     "hexchat",
     "weechat",
@@ -37,7 +36,6 @@ soft = [
     "vim",
     "dnsutils",
     "acpi",
-    "i3blocks",
     "pamixer",
     "urxvt-perls",
     "notify-osd",
@@ -49,14 +47,15 @@ system = [
     "xorg-xinit",
     "xorg-server-utils",
     "xorg-xclock",
-    "xorg-twm"
+    "xorg-twm",
     "xterm",
     "pulseaudio",
     "pulseaudio-alsa", # hmm ...
     "slim",
     "slim-themes",
     "archlinux-themes-slim",
-    "xdg-user-dirs"
+    "xdg-user-dirs",
+    "i3",
 ]
 
 # Install every item of the list "soft" 
