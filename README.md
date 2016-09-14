@@ -28,8 +28,10 @@ Config files for Arch + i3wm
 
 ### i3blocks installation 
 
+
 * I assume you already have yaourt installed, so in order to install i3blocks, do the following:
-* 
+
+
     ```sh
     $ yaourt -S i3blocks
     ```
