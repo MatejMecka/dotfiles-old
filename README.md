@@ -26,6 +26,26 @@ Config files for Arch + i3wm
     $ python samwise.py -i soft ( Edit the file if you want to add/remove softwares which will be installed with that command)
     ```
 
+### i3blocks installation 
+
+* I assume you already have yaourt installed, so in order to install i3blocks, do the following:
+* 
+    ```sh
+    $ yaourt -S i3blocks
+    ```
+    
+* In case you don't have yaourt
+ 
+All you have to do is click this link and copy the code https://gist.github.com/DenverDias/6610588, and then add it to you /etc/pacman.conf
+file. Don't forget to do the following:
+
+    ```sh
+    $ pacman -Syu
+    $ pacman -S yaourt
+    $ yaourt -S i3blocks
+    ```
+ 
+
 * Reboot
 
 
