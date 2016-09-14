@@ -36,18 +36,7 @@ Config files for Arch + i3wm
     $ yaourt -S i3blocks
     ```
 
-
-#### In case you don't have yaourt
- 
-All you have to do is click this link and copy the code https://gist.github.com/DenverDias/6610588, and then add it to you /etc/pacman.conf
-file. Don't forget to do the following:
-
-    ```sh
-    $ pacman -Syu
-    $ pacman -S yaourt
-    $ yaourt -S i3blocks
-    ```
- 
+If not, check out this link here https://revryl.com/2013/07/11/yaourt-installation-arch-linux/
 
 * Reboot
 
