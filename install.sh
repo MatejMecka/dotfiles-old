@@ -31,7 +31,8 @@ dir=`pwd`
 #Folders start here
 
 if ask "Install symlink for i3?" Y; then
-  ln -sfn ${dir}/.config/i3 ${HOME}/.config/i3
+    mkdir ~/.config # Just for now!
+    ln -sfn ${dir}/.config/i3 ${HOME}/.config/i3
 fi
 
 if ask "Install symlink for fish?" Y; then
