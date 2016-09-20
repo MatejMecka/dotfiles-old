@@ -51,6 +51,12 @@ system = [
     "xterm",
     "pulseaudio",
     "pulseaudio-alsa", # hmm ...
+    "iw",
+    "wpa_supplicant",
+    "dialog",
+    "wpa_actiond",
+    "networkmanager",
+    "network-manager-applet",
     "slim",
     "slim-themes",
     "archlinux-themes-slim",
