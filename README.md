@@ -48,7 +48,7 @@ If not, check out this link here https://revryl.com/2013/07/11/yaourt-installati
     ```sh
     $ sudo systemctl status slim.service ( probably dead/disabled )
     $ sudo systemctl enable slim.service && sudo systemctl start slim.service
-     ```
+    ```
 
 * Open an issue if you have any problems installing the dotfiles. I'll be glad to help.
 
