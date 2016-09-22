@@ -45,10 +45,10 @@ If not, check out this link here https://revryl.com/2013/07/11/yaourt-installati
 
 #### You might get problem with SLIM, don't forget to enable and start the process.
 
-    ```sh
+    
     $ sudo systemctl status slim.service ( probably dead/disabled )
     $ sudo systemctl enable slim.service && sudo systemctl start slim.service
-    ```
+    
 
 * Open an issue if you have any problems installing the dotfiles. I'll be glad to help.
 
