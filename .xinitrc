@@ -50,7 +50,7 @@ fi
 
 pulseaudio --start &
 nm-applet &
-feh --bg-fill ~/.config/wallpapers/wp4.jpg &
+feh --bg-fill ~/.config/wallpapers/wp2.jpg &
 compton &
 setxkbmap -model pc105 -layout us,mk -option grp:alt_shift_toggle
 
