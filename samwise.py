@@ -18,6 +18,7 @@ soft = [
     "vlc",
     "libreoffice",
     "thunar",
+    "gvfs",
     "thunderbird",
     "leafpad",
     "firefox",
