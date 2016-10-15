@@ -66,6 +66,8 @@ system = [
     "archlinux-themes-slim",
     "xdg-user-dirs",
     "i3-wm",
+    "yaourt",
+    "fish",
 ]
 
 # Install every item of the list "soft" 
