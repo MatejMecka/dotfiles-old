@@ -44,6 +44,7 @@ soft = [
     "urxvt-perls",
     "notify-osd",
     "compton",
+    "xarchiver",
 ]
 
 system = [

@@ -113,13 +113,14 @@ assign [class="Rxvt"] $workspace2
 
 # Editor
 assign [class="Emacs"] $workspace3
+assign [class="Atom"] $workspace3
 
 # File Manager assign
 assign [class="Thunar"] $workspace4
 assign [class="Sunflower"] $workspace4
 
 # Chat assign
-assign [class="HexChat"] $workspace5
+assign [class="Hexchat"] $workspace5
 assign [class="Skype"] $workspace 5
 
 # Music assign
@@ -127,6 +128,12 @@ assign [class="Clementine"] $workspace6
 
 # VLC assign
 assign [class="Vlc"] $workspace7
+
+# Calibre
+assign [class="Calibre"] $workspace8
+
+# Telegram
+assign [class="telegram-desktop"] $workspace9
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -139,6 +146,8 @@ new_window none
 new_float none
 
 for_window [class="urxvt"] floating enable
+for_window [class="Chromium"] floating enable
+for_window [class="Xarchiver"] floating enable
 
 # resize window (you can also use the mouse for that)
 mode "resize" {

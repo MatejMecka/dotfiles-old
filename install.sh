@@ -74,6 +74,10 @@ if ask "Install symlink for .Xresources?" Y; then
   ln -sf ${dir}/.Xresources ${HOME}/.Xresources
 fi
 
+if ask "Install user dirs?" Y; then
+  xdg-user-dirs-update
+fi
+
 
 
 
