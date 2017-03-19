@@ -3,13 +3,13 @@ Config files for Arch + i3wm
 
 ### Screenshots
 
-![first screenshot] (http://i.imgur.com/nUJ4w3U.png)
-![second screenshot] (http://i.imgur.com/eNwEaPr.png)
-![third screenshot] (http://i.imgur.com/Pza7tMx.png)
+![first screenshot](http://i.imgur.com/nUJ4w3U.png)
+![second screenshot](http://i.imgur.com/eNwEaPr.png)
+![third screenshot](http://i.imgur.com/Pza7tMx.png)
 
 ### I3blocks bar
 
-![i3blocks bar] (http://i.imgur.com/eKFaivY.png)
+![i3blocks bar](http://i.imgur.com/eKFaivY.png)
 
 ### Clean install Arch Linux:
 
